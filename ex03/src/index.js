@@ -1,12 +1,11 @@
 function printManyTimes(str) {
     "use strict";
 
-    const sentence = str + " is cool!";
+    const SENTENCE = str + " is cool!";
     for (let i = 0; i < str.length; i += 2){
-        console.log(sentence);
+        console.log(SENTENCE);
     }
-    return sentence;
+    return SENTENCE;
 }
-console.log(printManyTimes("Arena"));
 printManyTimes("Arena");
 module.exports = printManyTimes;
