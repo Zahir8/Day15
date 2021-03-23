@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    position: relative;
+    display: block;
+    float: right;
+    margin: 10px 20px;
+}
+nav{
+    display: block;
+    position: relative;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+}
+#sign_in{
+    background-color: rgb(50, 124, 235);
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+#sign_in a{
+    color: white;
+}
+.google-image{
+    position: absolute;
+    display: block;
+    top: 25%;
+    left:38%;
+}
+.form-search{
+    position: absolute;
+    display: block;
+    top: 44%;
+    left: 32%;
+    width: 30%;
+    height: auto;
+    padding: 0;
+}
+#form-search{
+    position: relative;
+    width: 420px;
+    height: 30px;
+    border-radius: 20px;
+}
+.buttons{
+    position: absolute;
+    display: block;
+    top: 54%;
+    left: 38.5%;
+    width: 30%;
+    height: auto;
+    padding: 0;
+}
+.buttons button{
+    margin-left: 10px;
+}
+#google-search, #im_feeling_lucky{
+    padding: 3px 10px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    padding: 15px 10px;
+    background-color: whitesmoke;
+}
+footer ul {
+    list-style-type: none;
+    display: inline-block;
+}
+footer ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+.footer-right{
+    position: relative;
+    float: right;
+}
